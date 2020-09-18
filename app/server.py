@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1OA_QD_lbctEwBXjJMQa6YfqBGT1ojURG'
+export_file_url = 'https://www.dropbox.com/s/jk7e0afpwx6hiyx/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['cloth_mask', 'face_shield', 'full_face', 'n95_respirator', 'surgical_mask']
